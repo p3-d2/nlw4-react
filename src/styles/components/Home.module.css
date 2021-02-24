@@ -10,6 +10,8 @@
 }
 
 .container section {
+  margin-top: 4rem;
+
   flex: 1;
 
   display: grid;
