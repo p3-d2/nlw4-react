@@ -41,7 +41,8 @@ export function CountdownProvider({ children }: CountdownProviderProps) {
   function resetCountdown() {
     clearTimeout(countdownTimeout as NodeJS.Timeout);
     setIsActive(false);
-    setTime(0.05 * 60);
+    setTime(0.1 * 60);
+    setHasFinished(false);
   }
 
   useEffect(() => {
